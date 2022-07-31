@@ -25,6 +25,11 @@ bytes(25000, { long: true }) // '25 Kilobytes'
 bytes(50000000, { long: true }) // '50 Megabytes'
 bytes(1000000000000, { long: true }) // '1 Terabyte'
 
+bytes(100, { format: 'array' }) // [100, 'B']
+bytes(25000, { format: 'array' }) // [25, 'KB']
+bytes(50000000, { long: true, format: 'array' }) // [50, 'Megabytes']
+bytes(1000000000000, { long: true, format: 'array' }) // [1, 'Terabyte']
+
 /*
  * Convert a readable size to bytes.
  */
@@ -43,4 +48,4 @@ bytes('1 Terabyte') // 1000000000000
 ### Configuration
 
 * **long**
-* **format:** `string` | `array` | `object` *(only available when converting bytes to a readable size)*
+* **format:** `string` | `array` *(only available when converting bytes to a readable size)*
