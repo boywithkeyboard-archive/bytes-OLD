@@ -1,5 +1,17 @@
 # @unvented/bytes
 
-## 1.0.0
+## v1.0.1
+
+### Bug Fixes
+
+- add missing `main` field to package.json
+- remove non-existent `jest.config.ts` from being included in compilation
+
+### Changes
+
+- remove changesets
+- replace `rimraf` with `@unvented/empty`
+
+## v1.0.0
 
 Published `@unvented/bytes`.

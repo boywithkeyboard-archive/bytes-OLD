@@ -1,6 +1,6 @@
 {
   "name": "@unvented/bytes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert bytes to human readable size units, and vice versa.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "main": "dist/index.js",
