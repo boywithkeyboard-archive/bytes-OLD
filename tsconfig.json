@@ -7,7 +7,7 @@
     "emitDeclarationOnly": true
   },
   "include": [
-    "**/*.ts", "jest.config.ts",
+    "**/*.ts"
   ],
   "exclude": [
     "**/*.test.ts"
