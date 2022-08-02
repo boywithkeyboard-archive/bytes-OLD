@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Convert bytes to human readable size units, and vice versa.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
+  "main": "dist/index.js",
   "exports": "./dist/index.js",
-  "types": "./types/index.js",
+  "types": "types/index.js",
   "scripts": {
     "lint": "eslint src",
     "format": "eslint src --fix",
