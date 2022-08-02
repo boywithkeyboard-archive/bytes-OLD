@@ -10,7 +10,7 @@
     "format": "eslint src --fix",
     "build": "rimraf dist && rimraf types && tsc && esbuild src/index.ts --format=esm --bundle --minify --outfile=dist/index.js",
     "test": "jest --config jest.config.json",
-    "release": "changeset version && npm i && changeset publish"
+    "release": "npm run lint && npm run build && npm publish --access public"
   },
   "license": "Apache-2.0",
   "repository": "unvented/bytes",
@@ -19,8 +19,6 @@
   "devDependencies": {
     "@azury/eslint-config": "^1.0.2",
     "@azury/style": "^1.0.0",
-    "@changesets/changelog-github": "^0.4.6",
-    "@changesets/cli": "^2.24.1",
     "@types/jest": "^28.1.6",
     "esbuild": "^0.14.51",
     "eslint": "^8.21.0",
