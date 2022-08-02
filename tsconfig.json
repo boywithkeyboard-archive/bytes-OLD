@@ -1,0 +1,15 @@
+{
+  "extends": "@azury/style/typescript",
+  "compilerOptions": {
+    "declarationDir": "types",
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "include": [
+    "**/*.ts", "jest.config.ts",
+  ],
+  "exclude": [
+    "**/*.test.ts"
+  ]
+}
