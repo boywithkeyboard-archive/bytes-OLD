@@ -22,7 +22,7 @@
     "@azury/style": "^1.0.0",
     "@types/jest": "^28.1.6",
     "@unvented/empty": "^1.0.3",
-    "esbuild": "^0.15.0",
+    "esbuild": "^0.15.2",
     "eslint": "^8.21.0",
     "jest": "^28.1.3",
     "ts-jest": "^28.0.7",
