@@ -1,6 +1,6 @@
 {
   "name": "@azury/bytes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert bytes to human readable size units, and vice versa.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "main": "dist/index.js",
@@ -14,9 +14,9 @@
     "release": "npm run lint && npm run build && npm publish --access public"
   },
   "license": "Apache-2.0",
-  "repository": "azury/bytes",
-  "bugs": "https://github.com/azury/bytes/issues",
-  "homepage": "https://github.com/azury/bytes#readme",
+  "repository": "azurystudio/bytes",
+  "bugs": "https://github.com/azurystudio/bytes/issues",
+  "homepage": "https://github.com/azurystudio/bytes#readme",
   "devDependencies": {
     "@azury/eslint-config": "^1.0.6",
     "@azury/style": "^1.0.0",
