@@ -13,7 +13,7 @@
     "test": "jest --config jest.config.json",
     "release": "npm run lint && npm run build && npm publish --access public"
   },
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "azurystudio/bytes",
   "bugs": "https://github.com/azurystudio/bytes/issues",
   "homepage": "https://github.com/azurystudio/bytes#readme",
