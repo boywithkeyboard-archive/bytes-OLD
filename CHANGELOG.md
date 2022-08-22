@@ -1,5 +1,11 @@
 # @unvented/bytes
 
+## v1.0.3
+
+### Changes
+
+- adjust `repository` in package.json
+
 ## v1.0.2
 
 ### Changes
