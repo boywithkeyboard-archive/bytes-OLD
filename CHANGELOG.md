@@ -1,5 +1,11 @@
 # @unvented/bytes
 
+## v1.0.2
+
+### Changes
+
+- migrate package to `@azury`
+
 ## v1.0.1
 
 ### Bug Fixes

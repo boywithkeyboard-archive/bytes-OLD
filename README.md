@@ -1,15 +1,15 @@
-## @unvented/bytes
+## @azury/bytes
 
 ### Installation
 
 ```bash
-npm i @unvented/bytes
+npm i @azury/bytes
 ```
 
 ### Usage
 
 ```js
-import bytes from '@unvented/bytes'
+import bytes from '@azury/bytes'
 
 /*
  * Convert bytes to a readable size.
