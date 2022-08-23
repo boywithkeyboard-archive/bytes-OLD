@@ -18,7 +18,7 @@
   "bugs": "https://github.com/azurystudio/bytes/issues",
   "homepage": "https://github.com/azurystudio/bytes#readme",
   "devDependencies": {
-    "@azury/eslint-config": "^1.0.6",
+    "@azury/eslint-config": "^1.0.7",
     "@azury/style": "^1.0.0",
     "@types/jest": "^28.1.7",
     "@unvented/empty": "^1.0.3",
