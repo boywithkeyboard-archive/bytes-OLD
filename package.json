@@ -5,7 +5,7 @@
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
-  "types": "types/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "lint": "eslint src",
     "format": "eslint src --fix",
