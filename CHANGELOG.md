@@ -8,7 +8,7 @@
 
 ### Breaking Changes
 
-- **you now need to use node.js v18**
+- **you now need to use node.js v18.**
 
 ### New Features
 
