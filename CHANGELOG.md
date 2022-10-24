@@ -1,29 +1,26 @@
-# @unvented/bytes
+# Changelog
 
-## v1.0.3
+#### Archived Releases:
 
-### Changes
+- [**v1**](https://github.com/azurystudio/bytes/blob/1b270d4013dba48e44b6cdb562d6c3371acdadb9/CHANGELOG.md)
 
-- adjust `repository` in package.json
+## v2.0.0
 
-## v1.0.2
+### Breaking Changes
 
-### Changes
+- **you now need to use node.js v18**
 
-- migrate package to `@azury`
+### New Features
 
-## v1.0.1
+- **you can now choose your desired prefix.**
 
-### Bug Fixes
+  ```js
+  import bytes from '@azury/bytes'
 
-- add missing `main` field to package.json
-- remove non-existent `jest.config.ts` from being included in compilation
+  bytes('25 KiB') // 25*1024
+  bytes('25 Kibibytes') // 25*1024
 
-### Changes
-
-- remove changesets
-- replace `rimraf` with `@unvented/empty`
-
-## v1.0.0
-
-Published `@unvented/bytes`.
+  bytes(61217, { prefix: 'metric' }) // 61.22 KB
+  bytes(61217, { prefix: 'binary' }) // 59.78 KiB
+  bytes(61217) // 61.22 KB
+  ```
