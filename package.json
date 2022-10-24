@@ -1,7 +1,7 @@
 {
   "name": "@azury/bytes",
   "version": "1.0.3",
-  "description": "Convert bytes to human readable size units, and vice versa.",
+  "description": "A disk unit conversion library.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
