@@ -1,15 +1,9 @@
-## @azury/bytes
-
-### Installation
-
-```bash
-npm i @azury/bytes
-```
+## bytes
 
 ### Usage
 
 ```js
-import bytes from '@azury/bytes'
+import bytes from 'https://deno.gg/bytes'
 
 /*
  * Convert bytes to a readable size.
