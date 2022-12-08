@@ -1,5 +1,5 @@
 {
-  "extends": "@azury/style/typescript",
+  "extends": "@azury/ui/ts.json",
   "compilerOptions": {
     "declarationDir": "types",
     "noEmit": false,

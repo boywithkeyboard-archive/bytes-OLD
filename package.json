@@ -19,7 +19,7 @@
   "homepage": "https://github.com/azurystudio/bytes#readme",
   "devDependencies": {
     "@azury/eslint-config": "^1.0.12",
-    "@azury/style": "^1.0.0",
+    "@azury/ui": "^0.1.18",
     "@types/jest": "^28.1.8",
     "@unvented/empty": "^1.1.0",
     "esbuild": "^0.15.14",
