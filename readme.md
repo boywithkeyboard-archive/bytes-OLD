@@ -1,10 +1,26 @@
 ## bytes
 
+### Installation
+
+#### Deno
+
+```ts
+import bytes from 'https://deno.gg/bytes'
+```
+
+#### Node
+
+```bash
+npm i @azury/bytes
+```
+
+```ts
+import bytes from '@azury/bytes'
+```
+
 ### Usage
 
-```js
-import bytes from 'https://deno.gg/bytes'
-
+```ts
 /*
  * Convert bytes to a readable size.
  */
