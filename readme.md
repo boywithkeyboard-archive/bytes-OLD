@@ -2,12 +2,6 @@
 
 ### Installation
 
-#### Deno
-
-```ts
-import bytes from 'https://deno.gg/bytes'
-```
-
 #### Node
 
 ```bash
