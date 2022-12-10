@@ -1,5 +1,5 @@
-import { Unit } from './unit'
 import { EB, EiB, GB, GiB, KB, KiB, MB, MiB, PB, PiB, TB, TiB, units, YB, YiB, ZB, ZiB } from './utility'
+import type { Unit } from './unit'
 
 /**
  * parse or format the given value.
