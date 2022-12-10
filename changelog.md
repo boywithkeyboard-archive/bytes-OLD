@@ -4,6 +4,13 @@
 
 - [**v1**](https://github.com/azurystudio/bytes/blob/1b270d4013dba48e44b6cdb562d6c3371acdadb9/CHANGELOG.md)
 
+## v2.1.1
+
+### Bug Fixes
+
+- **fix exports for deno**
+- **exclude mod.ts from type checking**
+
 ## v2.1.0
 
 ### New Features

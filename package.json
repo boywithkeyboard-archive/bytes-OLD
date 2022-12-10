@@ -1,6 +1,6 @@
 {
   "name": "@azury/bytes",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A disk unit conversion library.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "main": "dist/index.js",
